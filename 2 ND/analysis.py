@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("f1_standings_history.csv")
+df = pd.read_csv("../1 ND/f1_standings_history.csv")
 
 race_columns = df.columns[4:-1]
 
