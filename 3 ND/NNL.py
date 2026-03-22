@@ -28,7 +28,13 @@ y = df_scaled["target"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, test_size=0.2, random_state=42, stratify=df_scaled["target"])
 
-print("X_train shape:", X_train.shape)
-print("X_test shape:", X_test.shape)
-print("y_train shape:", y_train.shape)
-print("y_test shape:", y_test.shape)
+df_train_split = pd.DataFrame(X_train, columns=X_train.columns)
+df_train_split["target"] = y_train
+df_test_split = pd.DataFrame(X_test, columns=X_test.columns)
+df_test_split["target"] = y_test
+
+#print(df_train_split)
+#print(df_test_split)
+
+df_train_split.to_csv("wine_dataset_train_split.csv", index=False)
+df_test_split.to_csv("wine_dataset_test_split.csv", index=False)
