@@ -1,3 +1,4 @@
+--upgrade pip
 read_html_F1
 time
 os
@@ -5,3 +6,4 @@ datetime
 pandas
 matplotlib.pyplot
 scipy.stats
+scikit-learn
