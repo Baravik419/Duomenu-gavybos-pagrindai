@@ -49,7 +49,7 @@ model.fit(X_train, y_train)
 
 #modelio bandymas atspėti rezultatus
 y_pred = model.predict(X_test)
-print(y_pred)
+#print(y_pred)
 #modelio informacija
 print("Modelio parametrai:")
 #per kiek iteraciju modelis apsimoko
@@ -60,18 +60,32 @@ print("Kiek neuronų yra išėjimo sluoksnyje: ", model.n_outputs_)
 accuracy = accuracy_score(y_test, y_pred)
 print("Modelio tikslumas: ", accuracy)
 
+#w — weights (svoriai)
+#b — bias
+
 w1 = model.coefs_[0]
 b1 = model.intercepts_[0]
+w2 = model.coefs_[1]
+b2 = model.intercepts_[1]
 w3 = model.coefs_[2]
 b3 = model.intercepts_[2]
 
+#issitraukiame svorius ir bias kiekviename sluoksnyje
+#1 — pirmasis sluoksnis
+#2 — antrasis sluoksnis
+#3 – isejimo sluoksnis
+
 df_w1 = pd.DataFrame(w1, index=X.columns, columns=["N1", "N2", "N3"])
 df_bias1 = pd.DataFrame([b1], index=["Threshold"], columns=["N1", "N2", "N3"])
+df_w2 = pd.DataFrame(w2, index=["N1", "N2", "N3"], columns=["N1", "N2", "N3", "N4"])
+df_bias2 = pd.DataFrame([b2], index=["Threshold"], columns=["N1", "N2", "N3", "N4"])
 df_w3 = pd.DataFrame(w3, index=["N1", "N2", "N3", "N4"], columns=["0", "1", "2"])
 df_bias3 = pd.DataFrame([b3], index=["Threshold"], columns=["0", "1", "2"])
 
 df_layer1 = pd.concat([df_bias1, df_w1])
+df_layer2 = pd.concat([df_bias2, df_w2])
 df_layer3 = pd.concat([df_bias3, df_w3])
 
-print(df_layer1)
-print(df_layer3)
+print("\nPirmas sluoksnis\n", df_layer1)
+print("\nAntras sluoksnis\n", df_layer2)
+print("\nIšėjimo sluoksnis\n", df_layer3)
