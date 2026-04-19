@@ -1,0 +1,65 @@
+C:\Users\erwin\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\erwin\OneDrive - Vilniaus Gedimino technikos universitetas\University\8 semestras\DGP\Duomenu-gavybos-pagrindai\6 ND\main.py"
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776611384.449795   14648 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776611386.492002   14648 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Found 1085 images belonging to 4 classes.
+Found 40 images belonging to 4 classes.
+C:\Users\erwin\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+I0000 00:00:1776611387.727911   14648 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Model: "sequential"
+┌─────────────────────────────────┬────────────────────────┬───────────────┐
+│ Layer (type)                    │ Output Shape           │       Param # │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d (Conv2D)                 │ (None, 254, 254, 32)   │           896 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d (MaxPooling2D)    │ (None, 127, 127, 32)   │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_1 (Conv2D)               │ (None, 125, 125, 64)   │        18,496 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d_1 (MaxPooling2D)  │ (None, 62, 62, 64)     │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ flatten (Flatten)               │ (None, 246016)         │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 64)             │    15,745,088 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_1 (Dense)                 │ (None, 4)              │           260 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 15,764,740 (60.14 MB)
+ Trainable params: 15,764,740 (60.14 MB)
+ Non-trainable params: 0 (0.00 B)
+Epoch 1/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 22s 607ms/step - accuracy: 0.6350 - loss: 1.8083 - val_accuracy: 0.8500 - val_loss: 1.2798
+Epoch 2/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 19s 557ms/step - accuracy: 0.8949 - loss: 0.3207 - val_accuracy: 0.8750 - val_loss: 1.3594
+Epoch 3/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 19s 561ms/step - accuracy: 0.9392 - loss: 0.1726 - val_accuracy: 0.8750 - val_loss: 1.6997
+Epoch 4/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 18s 539ms/step - accuracy: 0.9512 - loss: 0.1450 - val_accuracy: 0.9250 - val_loss: 1.3221
+Epoch 5/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 19s 567ms/step - accuracy: 0.9687 - loss: 0.0977 - val_accuracy: 0.9250 - val_loss: 1.8723
+Epoch 6/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 24s 685ms/step - accuracy: 0.9843 - loss: 0.0522 - val_accuracy: 0.8500 - val_loss: 2.0883
+Epoch 7/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 21s 622ms/step - accuracy: 0.9779 - loss: 0.0595 - val_accuracy: 0.8750 - val_loss: 1.8446
+Epoch 8/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 20s 580ms/step - accuracy: 0.9797 - loss: 0.0577 - val_accuracy: 0.9000 - val_loss: 2.1378
+Epoch 9/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 22s 654ms/step - accuracy: 0.9687 - loss: 0.0979 - val_accuracy: 0.9000 - val_loss: 1.8508
+Epoch 10/10
+34/34 ━━━━━━━━━━━━━━━━━━━━ 19s 553ms/step - accuracy: 0.9871 - loss: 0.0435 - val_accuracy: 0.9250 - val_loss: 1.9140
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step - accuracy: 0.9250 - loss: 1.9140
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step
+Modelis 1 - bazinis CNN
+Parametrai: IMG_SIZE=256x256, BATCH_SIZE=32, epochs=10, optimizer=adam
+Testavimo praradimas: 1.9140121936798096
+Tikslumas: 0.925000011920929
+[[ 9  0  1  0]
+ [ 1  9  0  0]
+ [ 0  0  9  1]
+ [ 0  0  0 10]]
+
+Process finished with exit code 0

@@ -8,3 +8,4 @@ matplotlib.pyplot
 scipy.stats
 scikit-learn
 re
+tensorflow
