@@ -1,0 +1,8 @@
+C:\Users\erwin\AppData\Local\Programs\Python\Python314\python.exe "C:\Users\erwin\OneDrive - Vilniaus Gedimino technikos universitetas\University\8 semestras\DGP\Duomenu-gavybos-pagrindai\5 ND\main.py"
+Matricos dydis:  (20, 1808)
+Žodžiai:  ['abi' 'abiem' 'abraomas' ... 'žydų' 'žymiosios' 'žymių']
+Pirmas tekstas:  [[0 0 0 ... 0 0 0]]
+Hierarchinis klasterizavimas: [0 0 0 0 0 3 0 0 2 1 0 0 0 0 0 0 0 0 0 0]
+Klasterizavimas taikant k-vidurkių metodą: [0 0 0 2 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0]
+
+Process finished with exit code 0
