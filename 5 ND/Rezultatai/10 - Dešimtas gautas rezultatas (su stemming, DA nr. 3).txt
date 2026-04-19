@@ -1,0 +1,82 @@
+C:\Users\erwin\AppData\Local\Programs\Python\Python314\python.exe "C:\Users\erwin\OneDrive - Vilniaus Gedimino technikos universitetas\University\8 semestras\DGP\Duomenu-gavybos-pagrindai\5 ND\main.py"
+Matricos dydis:  (6, 479)
+Žodžiai:  ['adrien' 'agen' 'agresyv' 'aikšt' 'akcen' 'aktyva' 'analiz' 'andre'
+ 'andžel' 'anks' 'ankst' 'anticiklon' 'antr' 'apibendrin' 'aprang'
+ 'apsikrovę' 'apstumd' 'aren' 'areno' 'armand' 'artemijum' 'artim' 'arčia'
+ 'ate' 'atgal' 'atleis' 'atlik' 'atmosfero' 'atšal' 'aukš' 'aukšt'
+ 'aukštaitijo' 'aukštaūg' 'aukščiausi' 'baud' 'bendra' 'bent'
+ 'besitenkinan' 'bleacher' 'boston' 'buck' 'bus' 'buv' 'buvom' 'bėd' 'būn'
+ 'būt' 'cam' 'celj' 'celtic' 'cfsv' 'closeouta' 'dabar' 'dairy' 'dal'
+ 'dalie' 'dalijas' 'dalton' 'dalyj' 'dang' 'danguj' 'darb' 'daug' 'daugia'
+ 'daugiamet' 'davis' 'dažnia' 'debes' 'debesim' 'debesuo' 'decibel' 'did'
+ 'didž' 'didži' 'didžiausi' 'dien' 'dieno' 'domin' 'draug' 'dusyk'
+ 'dviguba' 'dvikov' 'dvitašk' 'dzūkijo' 'džiug' 'džiugin' 'ecmwf'
+ 'efektyvesn' 'ekip' 'ekipa' 'ekipo' 'esant' 'formavimuis' 'formuo' 'gal'
+ 'galbūt' 'galvoja' 'galė' 'geno' 'ger' 'geria' 'gilumo' 'ginei' 'greiči'
+ 'griuv' 'gvid' 'gyn' 'gynėj' 'gynės' 'ilgalaik' 'ilgalaikė' 'inciden'
+ 'irg' 'italij' 'išlik' 'išliksim' 'išlyg' 'išsigiedriję' 'išsilaik'
+ 'išsipildy' 'išsiskyr' 'išvyk' 'jau' 'jei' 'joe' 'jog' 'jok' 'joki'
+ 'juntam' 'kalifornijo' 'kandida' 'kart' 'karusel' 'kažk' 'kažkur' 'keis'
+ 'kiek' 'kietesn' 'kit' 'klimat' 'klub' 'klyd' 'knech' 'kodėl' 'kok'
+ 'komand' 'komanda' 'komando' 'koment' 'krepši' 'krepšinink' 'krepšininka'
+ 'kris' 'kritul' 'kryptie' 'kur' 'kuri' 'kuči' 'kėlini' 'kūn' 'laba'
+ 'laikom' 'laime' 'laipsn' 'laipsni' 'laisvo' 'laisvųj' 'laker' 'led'
+ 'leis' 'lem' 'lengv' 'lento' 'liek' 'lieta' 'lietuv' 'lietuvo' 'likę'
+ 'lipom' 'lonni' 'los' 'main' 'malonū' 'mana' 'maribor' 'marškinėl' 'mač'
+ 'maždaug' 'mažesn' 'mažia' 'mes' 'met' 'metik' 'metim' 'milvoki' 'min'
+ 'mintim' 'mod' 'mus' 'mėg' 'mėn' 'mėnes' 'mėnesi' 'mėnu' 'nakt' 'naktie'
+ 'naktim' 'nam' 'nar' 'naujausi' 'naujien' 'naujok' 'nebetur' 'nebuva'
+ 'nei' 'neigiam' 'neigiama' 'nekei' 'nekil' 'nemaža' 'nenumatom' 'nepakak'
+ 'nepalank' 'nepasirod' 'nepastebėsim' 'nepastov' 'nes' 'neskubė'
+ 'nestipr' 'nesulauksim' 'net' 'netol' 'netur' 'nor' 'norint' 'norm'
+ 'normal' 'normo' 'nuli' 'nuliu' 'numatom' 'nusimat' 'nėr' 'ora'
+ 'organizuo' 'oro' 'oru' 'orų' 'pabaig' 'pajėga' 'pajūryj' 'pakankama'
+ 'pakeis' 'pakrašt' 'palaik' 'palank' 'paleida' 'panaš' 'panaši' 'panašū'
+ 'pasidal' 'pasidalij' 'pasidar' 'pasiek' 'pasikvies' 'pasiraš' 'pasirink'
+ 'pasirod' 'pasiskirst' 'paskutin' 'paspa' 'pastariej' 'pat' 'pataik'
+ 'pateiki' 'patrauk' 'pavasar' 'pači' 'pašal' 'pažemė' 'pažvelkim'
+ 'pelnėm' 'penktadien' 'pergal' 'pergrūst' 'permain' 'pertrauko' 'pietryč'
+ 'pietvakar' 'pijum' 'pinamon' 'pirm' 'pirmadien' 'pirmadieni' 'pirmo'
+ 'pirmoj' 'plan' 'pozicijo' 'pragiedrul' 'praleid' 'pramest' 'prasidė'
+ 'praėjus' 'pri' 'priartė' 'prieš' 'priešin' 'principin' 'pripaž'
+ 'priverst' 'problem' 'proc' 'prognoz' 'prognozuojam' 'prognozė' 'puol'
+ 'puolim' 'puolėj' 'pus' 'pustreči' 'pūs' 'rajon' 'raudon' 'raš' 'real'
+ 'reddish' 'reiki' 'reikė' 'reiški' 'remian' 'report' 'rezultat' 'rimtesn'
+ 'rink' 'rizik' 'rungtyn' 'rungtyne' 'rutino' 'ryt' 'ryšk' 'sak' 'sau'
+ 'saulė' 'saus' 'sav' 'savę' 'sekmadien' 'sekmadieni' 'sektor' 'sezon'
+ 'silpstanči' 'sinoptika' 'sirgal' 'skaičiavim' 'skaičiuojam' 'skn' 'slid'
+ 'slovėnij' 'slėg' 'slėgi' 'snieg' 'spindul' 'standart' 'steb' 'stipra'
+ 'stipria' 'stiprok' 'stiprum' 'stovykl' 'sudėt' 'sudėtyj' 'sukovoj'
+ 'sukur' 'sulauksim' 'sunk' 'susidūr' 'susiform' 'susilpnė' 'susitarimu'
+ 'susitraumavus' 'sužaidę' 'sveč' 'svyr' 'sąlyg' 'sąlygo' 'sūkur' 'sūkuri'
+ 'taik' 'taip' 'tamez' 'tanse' 'tačia' 'tašk' 'tek' 'temperatūr'
+ 'temperatūra' 'tiek' 'tikra' 'todėl' 'tok' 'tolim' 'tor' 'tradiciška'
+ 'treč' 'tritašk' 'truput' 'tub' 'tuo' 'tur' 'turbūt' 'turinč' 'turė'
+ 'tutyškin' 'twinsbet' 'tūkst' 'vard' 'varžova' 'vasar' 'vasari' 'veik'
+ 'vejo' 'vidurdieni' 'viduri' 'vidutini' 'vien' 'viet' 'vieto' 'vietovė'
+ 'vilkin' 'vilkint' 'vis' 'visa' 'vos' 'vyra' 'vėj' 'vėl' 'walker' 'wolve'
+ 'įdienoj' 'įdom' 'įprasta' 'įsikūrę' 'įsimuš' 'įsitaisę' 'įtak'
+ 'įvardijam' 'įvart' 'įvyk' 'įšil' 'šal' 'šalie' 'šalči' 'šans'
+ 'šeimininka' 'šeštadien' 'šiam' 'šiaurė' 'šiek' 'šil' 'šiltesn' 'šilumo'
+ 'šio' 'šioj' 'širvi' 'šią' 'švent' 'šįkart' 'šūv' 'žaidėj' 'žais'
+ 'žalgiri' 'žemiausi' 'žemyn' 'ženg' 'žinom' 'žiūrov' 'žurnalis' 'žvarb'
+ 'žymesn']
+Pirmas tekstas:  [[0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0
+  0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 2 1 0 0 0 2 0 0 0 0
+  0 0 0 4 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0
+  0 0 0 0 0 0 0 0 1 3 2 0 0 0 0 0 2 0 0 3 1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 2 2
+  0 0 0 0 1 1 1 0 0 0 0 0 2 3 1 0 0 1 0 0 0 0 0 0 1 1 0 2 0 2 2 0 0 0 1 0
+  0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+  0 0 0 0 1 1 0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 1 3 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0
+  1 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 4 1
+  3 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 1 1
+  1 0 4 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 3 0 0 0 0 3 1 0 0 1 0 0 0 0 0 0 0
+  0 0 0 1 0 0 0 0 0 0 0]]
+Hierarchinis klasterizavimas: [0 3 0 1 2 1]
+Klasterizavimas taikant k-vidurkių metodą: [0 1 0 1 1 1]
+Panašumas tarp 1 ir 3 dokumento: 0.5639320384466053
+
+Process finished with exit code 0

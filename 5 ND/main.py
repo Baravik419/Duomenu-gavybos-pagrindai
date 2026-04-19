@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.cluster.hierarchy import linkage, dendrogram
 import matplotlib.pyplot as plt
 
-path = ("./Duomenų aibė nr. 2")
+path = ("./Duomenų aibė nr. 3")
 
 texts = []
 labels = []
@@ -169,14 +169,14 @@ dendrogram(
     leaf_rotation=0,
     leaf_font_size=12,
 )
-plt.title("Hierarchinio klasterizavimo dendrograma - ward metodas")
+plt.title("Hierarchinio klasterizavimo dendrograma - Ward metodas")
 plt.xlabel("Tekstai")
 plt.ylabel("Atstumas")
 plt.show()
 
 # Klasterizavimas taikant k-vidurkių metodą
 
-kmeans = KMeans(n_clusters=4, random_state=42)
+kmeans = KMeans(n_clusters=2, random_state=42)
 kmeans_labels = kmeans.fit_predict(X)
 
 print("Klasterizavimas taikant k-vidurkių metodą:", kmeans_labels)
@@ -186,6 +186,6 @@ print("Klasterizavimas taikant k-vidurkių metodą:", kmeans_labels)
 
 # Panašumo mato skaičiavimas
 
-similarity = cosine_similarity(X[5], X[16])[0][0]
+similarity = cosine_similarity(X[0], X[2])[0][0]
 
-print("Panašumas tarp 6 ir 17 dokumento:", similarity)
+print("Panašumas tarp 1 ir 3 dokumento:", similarity)
