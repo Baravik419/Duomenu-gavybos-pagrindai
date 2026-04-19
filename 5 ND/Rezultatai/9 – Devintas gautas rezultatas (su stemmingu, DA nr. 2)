@@ -1,0 +1,50 @@
+C:\Users\erwin\AppData\Local\Programs\Python\Python314\python.exe "C:\Users\erwin\OneDrive - Vilniaus Gedimino technikos universitetas\University\8 semestras\DGP\Duomenu-gavybos-pagrindai\5 ND\main.py"
+Matricos dydis:  (20, 266)
+Žodžiai:  ['aerodinamik' 'akirat' 'aktor' 'aktyvum' 'analiz' 'ankstyv' 'ateitie'
+ 'atlik' 'atrand' 'aukšt' 'aukšč' 'automobil' 'basein' 'bendr'
+ 'biblioteko' 'bolida' 'bėg' 'bėgioj' 'būd' 'būn' 'būt' 'dail' 'dal'
+ 'dalyvauj' 'dar' 'darb' 'darželyj' 'daug' 'dažna' 'demonstr' 'detal'
+ 'did' 'didel' 'dirb' 'duomen' 'efektyv' 'emocij' 'etap' 'filma' 'fizin'
+ 'form' 'formul' 'formulė' 'futbol' 'gal' 'galerij' 'galimyb' 'galimybe'
+ 'gerbėj' 'gil' 'grei' 'greita' 'greito' 'gyven' 'informacij' 'interes'
+ 'istorij' 'išreikš' 'išsilav' 'ištverm' 'ištverming' 'iššūk' 'jie' 'joj'
+ 'kamuol' 'karjero' 'kasdien' 'keiči' 'kiekvien' 'kiekvieno' 'kin' 'kit'
+ 'klaus' 'knyg' 'knygo' 'komand' 'komando' 'koncerta' 'koordinacij'
+ 'kovoj' 'krepš' 'kritin' 'kryp' 'kultūra' 'kultūro' 'kur' 'kuri' 'kurs'
+ 'kursa' 'kvėp' 'kūnu' 'kūrin' 'kūryb' 'laba' 'laisvalaiki' 'lav' 'leidin'
+ 'leidži' 'lemi' 'lengva' 'lenktyn' 'lenktynė' 'lenktynės' 'lietuv'
+ 'literatūr' 'lygi' 'mechanika' 'meistr' 'men' 'menininka' 'mod' 'mok'
+ 'moky' 'mokykl' 'mokym' 'mokyma' 'mokymuis' 'mokytoja' 'muzik' 'mąst'
+ 'mėgaujas' 'mėgstam' 'nauding' 'naudoj' 'nauj' 'nuolat' 'nuotol' 'oro'
+ 'padang' 'paded' 'pagal' 'pagrind' 'palaik' 'papras' 'parodo' 'pasakoj'
+ 'pasaulyj' 'pasiek' 'pasirink' 'pasirodym' 'pasiruoš' 'paskaito'
+ 'paveiksl' 'pažang' 'pedagoga' 'pergal' 'personaž' 'pilota' 'platformo'
+ 'plauk' 'pleči' 'pokyč' 'populiar' 'populiaresn' 'praktik' 'pramogo'
+ 'prasided' 'pri' 'prieš' 'prisitaik' 'pritaik' 'pritrauki' 'profesionala'
+ 'puik' 'raketė' 'raumen' 'rašytoja' 'reakcijo' 'reikalauj' 'reikšm'
+ 'renkas' 'rezultat' 'režisier' 'rodom' 'rungtynė' 'saug' 'sav'
+ 'savarankiška' 'scen' 'sek' 'sekund' 'seminara' 'sezon' 'sirgal' 'siužet'
+ 'siūl' 'skaitytoja' 'skat' 'skirting' 'skirtingo' 'socialin' 'spektakl'
+ 'spor' 'sport' 'sportininka' 'stadion' 'stil' 'stili' 'stipr' 'strategij'
+ 'studenta' 'studij' 'sudėting' 'sudėtingo' 'sukur' 'supras' 'susided'
+ 'suteiki' 'svarb' 'sveik' 'sąlyg' 'sąlygo' 'tamp' 'tap' 'tašk' 'teatr'
+ 'technologijo' 'tem' 'tenis' 'teorij' 'titul' 'tobul' 'tolimesn'
+ 'tradicin' 'traso' 'treniruojas' 'tur' 'turnyra' 'ugd' 'universite'
+ 'vaid' 'vaik' 'vaika' 'varž' 'varžyb' 'varžybo' 'vert' 'vien' 'vienij'
+ 'vieto' 'vis' 'visam' 'vykst' 'čempionat' 'įgy' 'įgyj' 'įgūdž' 'įkūnij'
+ 'įrang' 'įtak' 'įtemp' 'įtempto' 'įvair' 'šak' 'šird' 'šiuolaikini'
+ 'šviet' 'žaid' 'žanra' 'žin' 'žiūrov' 'žiūrova' 'žmoga' 'žmon' 'žmone'
+ 'žmonė']
+Pirmas tekstas:  [[0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0
+  0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 1 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0
+  0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+  0 0 0 0 1 0 0 1 0 0 1 0 0 0]]
+Hierarchinis klasterizavimas: [1 1 1 2 1 2 0 2 0 2 3 3 3 3 3 3 0 0 3 0]
+Klasterizavimas taikant k-vidurkių metodą: [1 3 2 3 2 0 1 0 3 3 3 1 3 3 3 3 1 1 3 1]
+Panašumas tarp 6 ir 17 dokumento: 0.05292561240249632
+
+Process finished with exit code 0

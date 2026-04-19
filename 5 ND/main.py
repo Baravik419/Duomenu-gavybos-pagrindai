@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.cluster.hierarchy import linkage, dendrogram
 import matplotlib.pyplot as plt
 
-path = ("./Duomenų aibė")
+path = ("./Duomenų aibė nr. 2")
 
 texts = []
 labels = []
