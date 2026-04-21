@@ -1,11 +1,6 @@
---upgrade pip
-read_html_F1
-time
-os
 datetime
 pandas
-matplotlib.pyplot
-scipy.stats
+matplotlib
+scipy
 scikit-learn
-re
 tensorflow
