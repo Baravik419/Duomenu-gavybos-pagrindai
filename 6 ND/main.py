@@ -3,6 +3,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras import layers, models
 from sklearn.metrics import confusion_matrix
 import numpy as np
+from tensorflow.python.keras.callbacks import EarlyStopping
 
 IMG_SIZE = (128, 128)
 BATCH_SIZE = 32
@@ -37,9 +38,9 @@ test_data = test_datagen.flow_from_directory(
 # Modelio parametrai
 model = models.Sequential()
 
-model.add(layers.Conv2D(32, (3, 3), activation="relu", input_shape=(128, 128, 3)))
+model.add(layers.Conv2D(32, (3, 3), activation="tanh", input_shape=(128, 128, 3)))
 model.add(layers.MaxPooling2D((2, 2)))
-model.add(layers.Conv2D(64, (3, 3), activation="relu"))
+model.add(layers.Conv2D(64, (3, 3), activation="tanh"))
 model.add(layers.MaxPooling2D((2, 2)))
 model.add(layers.Flatten())
 model.add(layers.Dense(64, activation="relu"))
@@ -54,10 +55,13 @@ model.compile(
 model.summary()
 
 # Modelio mokymas
+early_stop = EarlyStopping(patience=3, restore_best_weights=True)
 history = model.fit(
     train_data,
     epochs=10,
-    validation_data=test_data
+    validation_data=test_data,
+    class_weight={0:1, 1:1, 2:1.2, 3:1},
+    callbacks=[early_stop]
 )
 
 # Modelio testavimas
